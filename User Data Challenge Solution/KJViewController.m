@@ -7,6 +7,7 @@
 //
 
 #import "KJViewController.h"
+#import "KJUserData.h"
 
 @interface KJViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.users = [KJUserData users];
+    NSLog(@"%@", self.users);
 }
 
 - (void)didReceiveMemoryWarning

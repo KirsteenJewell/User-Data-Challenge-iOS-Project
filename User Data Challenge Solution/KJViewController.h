@@ -10,4 +10,6 @@
 
 @interface KJViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end

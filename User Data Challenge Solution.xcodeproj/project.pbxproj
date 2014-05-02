@@ -21,6 +21,12 @@
 		6307D8811913E97300D54BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6307D8631913E97300D54BBB /* UIKit.framework */; };
 		6307D8891913E97300D54BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6307D8871913E97300D54BBB /* InfoPlist.strings */; };
 		6307D88B1913E97300D54BBB /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307D88A1913E97300D54BBB /* User_Data_Challenge_SolutionTests.m */; };
+		6307D8961913F27E00D54BBB /* KJUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307D8951913F27E00D54BBB /* KJUserData.m */; };
+		6307D89B1913F2B000D54BBB /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6307D8971913F2B000D54BBB /* person1.jpeg */; };
+		6307D89C1913F2B000D54BBB /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6307D8981913F2B000D54BBB /* person2.jpeg */; };
+		6307D89D1913F2B000D54BBB /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307D8991913F2B000D54BBB /* person3.jpg */; };
+		6307D89E1913F2B000D54BBB /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6307D89A1913F2B000D54BBB /* person4.jpeg */; };
+		6307D8A11913F2CF00D54BBB /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307D8A01913F2CF00D54BBB /* CCUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		6307D8861913E97300D54BBB /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6307D8881913E97300D54BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6307D88A1913E97300D54BBB /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6307D8941913F27E00D54BBB /* KJUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KJUserData.h; path = ../KJUserData.h; sourceTree = "<group>"; };
+		6307D8951913F27E00D54BBB /* KJUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KJUserData.m; path = ../KJUserData.m; sourceTree = "<group>"; };
+		6307D8971913F2B000D54BBB /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		6307D8981913F2B000D54BBB /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		6307D8991913F2B000D54BBB /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		6307D89A1913F2B000D54BBB /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		6307D89F1913F2CF00D54BBB /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserData.h; sourceTree = "<group>"; };
+		6307D8A01913F2CF00D54BBB /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,7 @@
 				6307D8711913E97300D54BBB /* Main.storyboard */,
 				6307D8741913E97300D54BBB /* KJViewController.h */,
 				6307D8751913E97300D54BBB /* KJViewController.m */,
+				6307D8A21913F3B600D54BBB /* Model */,
 				6307D8771913E97300D54BBB /* Images.xcassets */,
 				6307D8661913E97300D54BBB /* Supporting Files */,
 			);
@@ -126,6 +141,12 @@
 		6307D8661913E97300D54BBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6307D89F1913F2CF00D54BBB /* CCUserData.h */,
+				6307D8A01913F2CF00D54BBB /* CCUserData.m */,
+				6307D8971913F2B000D54BBB /* person1.jpeg */,
+				6307D8981913F2B000D54BBB /* person2.jpeg */,
+				6307D8991913F2B000D54BBB /* person3.jpg */,
+				6307D89A1913F2B000D54BBB /* person4.jpeg */,
 				6307D8671913E97300D54BBB /* User Data Challenge Solution-Info.plist */,
 				6307D8681913E97300D54BBB /* InfoPlist.strings */,
 				6307D86B1913E97300D54BBB /* main.m */,
@@ -150,6 +171,15 @@
 				6307D8871913E97300D54BBB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6307D8A21913F3B600D54BBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6307D8941913F27E00D54BBB /* KJUserData.h */,
+				6307D8951913F27E00D54BBB /* KJUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6307D89D1913F2B000D54BBB /* person3.jpg in Resources */,
+				6307D89B1913F2B000D54BBB /* person1.jpeg in Resources */,
 				6307D8781913E97300D54BBB /* Images.xcassets in Resources */,
 				6307D86A1913E97300D54BBB /* InfoPlist.strings in Resources */,
+				6307D89E1913F2B000D54BBB /* person4.jpeg in Resources */,
 				6307D8731913E97300D54BBB /* Main.storyboard in Resources */,
+				6307D89C1913F2B000D54BBB /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6307D8761913E97300D54BBB /* KJViewController.m in Sources */,
+				6307D8A11913F2CF00D54BBB /* CCUserData.m in Sources */,
+				6307D8961913F27E00D54BBB /* KJUserData.m in Sources */,
 				6307D86C1913E97300D54BBB /* main.m in Sources */,
 				6307D8701913E97300D54BBB /* KJAppDelegate.m in Sources */,
 			);
